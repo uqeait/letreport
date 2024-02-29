@@ -1,0 +1,10 @@
+{
+  "name": "MS Form Embedder",
+  "description": "Embeds a Microsoft Form in a Chrome extension popup",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "activeTab", "https://forms.office.com/r/SNT0i9D4f4"] 
+} 
