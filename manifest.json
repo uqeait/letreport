@@ -4,7 +4,13 @@
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": { 
+      "16": "LET-icon.png",  
+      "32": "LET-icon.png",  
+      "48": "LET-icon.png",  
+      "128": "LET-icon.png"
+    }
   },
   "permissions": ["tabs", "activeTab", "https://forms.office.com/r/SNT0i9D4f4"] 
 } 
